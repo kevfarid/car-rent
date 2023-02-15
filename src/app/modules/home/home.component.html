@@ -1,0 +1,13 @@
+<app-hero />
+<section class="cars-list" id="cars-list">
+  <h2 class="cars-list__title">Best Cars in towm for you</h2>
+  <p class="cars-list__subtitle">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+  </p>
+  <div class="cars-list--list">
+    <app-card *ngFor="let car of cars" [title]="car.name" [image]="car.photo" [description]="car.description" [price]="car.price" (clickButton)="openModal(car.id)"></app-card>
+  </div>
+</section>
+<app-modal [show]="showModal" (close)="closeModal()">
+  <app-car-modal [car]="car"></app-car-modal>
+</app-modal>

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "photo": "https://www.motor.com.co/__export/1654288763483/sites/motor/img/2022/06/03/2023-toyota-corolla-sedan-eu-spec-1.jpg_1902800913.jpg",
+    "name": "Corolla",
+    "model": "2022",
+    "brand": "Toyota",
+    "price": 25000,
+    "description": "The Toyota Corolla is a popular compact sedan due to its reliability and durability. The latest generation has a modern and sleek design and features a wide range of safety and advanced technology features.",
+    "specifications": {
+      "engine": "1.8 liter 4-cylinder",
+      "power": "139 horsepower",
+      "transmission": "7-speed automatic",
+      "fuel": "gasoline",
+      "capacity": "5 passengers"
+    }
+  },
+  {
+    "id": 2,
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/2017_Honda_Civic_SR_VTEC_1.0_Front.jpg",
+    "name": "Civic",
+    "model": "2023",
+    "brand": "Honda",
+    "price": 27000,
+    "description": "The Honda Civic is a sporty compact sedan that offers exciting performance and agile handling. With its aerodynamic design and modern, spacious interior, it's perfect for those seeking a reliable and stylish vehicle.",
+    "specifications": {
+      "engine": "2.0 liter 4-cylinder turbo",
+      "power": "306 horsepower",
+      "transmission": "6-speed manual",
+      "fuel": "gasoline",
+      "capacity": "5 passengers"
+    }
+  },
+  {
+    "id": 3,
+    "photo": "https://hips.hearstapps.com/hmg-prod/images/2022-ford-mustang-stealth-edition-02-1633475393.jpg?crop=0.681xw:0.906xh;0.112xw,0&resize=1200:*",
+    "name": "Mustang",
+    "model": "2022",
+    "brand": "Ford",
+    "price": 40000,
+    "description": "The Ford Mustang is an iconic sports car that combines style, power, and cutting-edge technology. From its muscular design to its V8 engine, the Mustang is a machine built for excitement and adventure.",
+    "specifications": {
+      "engine": "5.0 liter V8",
+      "power": "480 horsepower",
+      "transmission": "10-speed automatic",
+      "fuel": "gasoline",
+      "capacity": "4 passengers"
+    }
+  },
+  {
+    "id": 4,
+    "photo": "https://www.elcarrocolombiano.com/wp-content/uploads/2021/09/20210914-MAZDA-CX-5-2022-2023-FACELIFT-ACTUALIZACION-01.jpg",
+    "name": "CX-5",
+    "model": "2022",
+    "brand": "Mazda",
+    "price": 30000,
+    "description": "The Mazda CX-5 is a compact SUV that combines elegance, performance, and advanced technology. With its KODO design and SKYACTIV engine, the CX-5 offers an exciting and secure driving experience.",
+    "specifications": {
+      "engine": "2.5 liter 4-cylinder",
+      "power": "187 horsepower",
+      "transmission": "6-speed automatic",
+      "fuel": "gasoline",
+      "capacity": "5 passengers"
+    }
+  },
+  {
+    "id": 5,
+    "photo": "https://thumbor.forbes.com/thumbor/fit-in/960x600/https://www.forbes.com/wheels/wp-content/uploads/2022/08/2023_Hyundai_Palisade_Gallery1.jpg",
+    "name": "SUV A",
+    "model": "2022",
+    "brand": "Brand A",
+    "price": 35000,
+    "description": "The SUV A is a medium-sized sport utility vehicle that offers comfort and space for the whole family. It features advanced safety features and cutting-edge technology for a smooth and safe driving experience.",
+    "specifications": {
+      "engine": "2.0 liter 4-cylinder",
+      "power": "180 horsepower",
+      "transmission": "8-speed automatic",
+      "fuel": "gasoline",
+      "capacity": "5 passengers"
+    }
+  }
+]

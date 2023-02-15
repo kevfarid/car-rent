@@ -1,0 +1,13 @@
+<div class="card">
+  <img [src]="image" [alt]="title" class="card__image" />
+  <h2 class="card__title">{{ title }}</h2>
+  <span class="card__price">${{ price }} USD</span>
+  <span class="card__subtitle">{{ brand }} • {{ model }}</span>
+  <p class="card__text">
+    {{ description }} Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Atque asperiores, recusandae quod quis aut adipisci obcaecati commodi non
+    dolores quasi, voluptatum consequuntur iste unde laudantium neque, mollitia
+    voluptate quaerat? Quaerat!
+  </p>
+  <button class="card__link button--link" (click)="onClick()">More</button>
+</div>

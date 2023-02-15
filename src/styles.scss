@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  color: var(--text-dark);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-ligth: #fefefe;
+  --text-dark: #494949;
+  --primary: #dc9e2f;
+  --header: rgba(0, 0, 0, 0.8);
+  --gray1: #949494;
+}
+
+.button {
+  background: var(--primary);
+  color: var(--text-ligth);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+  font-weight: bold;
+
+  &:hover {
+    background: var(--text-ligth);
+    color: var(--primary);
+  }
+}
+
+.button--cirle {
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--link {
+  background: none;
+  text-decoration: none;
+  border: none;
+  color: var(--primary);
+  padding: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    text-decoration: line-through;
+  }
+
+  &::after, &::before {
+    content: "-";
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+
+.button--secondary {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background: var(--primary);
+    color: var(--text-ligth);
+  }
+}

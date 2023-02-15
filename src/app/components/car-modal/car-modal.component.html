@@ -1,0 +1,33 @@
+<div class="car-modal" *ngIf="car.specifications">
+  <div class="car-modal__image">
+    <img [src]="car.photo" [alt]="car.name" />
+  </div>
+  <div class="car-modal__content">
+    <h2 class="car-modal__title">{{ car.name }}</h2>
+    <span class="car-modal__subtitle">{{ car.brand }} • {{ car.model }}</span>
+    <p class="car-modal__price">${{ car.price }} USD / Annual</p>
+    <p class="car-modal__description">{{ car.description }}</p>
+    <ul>
+      <li>
+        <span>Engine: </span>
+        <span>{{ car.specifications.engine }}</span>
+      </li>
+      <li>
+        <span>Power: </span>
+        <span>{{ car.specifications.power }}</span>
+      </li>
+      <li>
+        <span>Transmission: </span>
+        <span>{{ car.specifications.transmission }}</span>
+      </li>
+      <li>
+        <span>Fuel: </span>
+        <span>{{ car.specifications.fuel }}</span>
+      </li>
+      <li>
+        <span>Capacity: </span>
+        <span>{{ car.specifications.capacity }}</span>
+      </li>
+    </ul>
+  </div>
+</div>
